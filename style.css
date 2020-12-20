@@ -1,0 +1,117 @@
+body {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, yellow, lightblue);
+}
+
+.img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+#name {
+    font-family: inherit;
+    font-display: swap;
+    font-kerning: normal;
+
+
+
+}
+
+h1 {
+    text-shadow: 2px 2px #98eb34;
+    font-size: 20px;
+}
+
+p {
+
+    font-size: 18px;
+    color: #a84032;
+}
+
+#bio {
+    padding: 20;
+    font-size: 18;
+    text-align: center;
+
+}
+
+
+.parallax-inner {
+
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.ins {
+    margin: 30px;
+    width: 330px;
+    height: 550px;
+    transition:transform .2s;
+    border: 10px solid #f5c842;
+    
+}
+.ins:hover {
+    
+    transform: scale(0.9);
+}
+#maps {
+    background: lightgreen;
+
+}
+
+#maps iframe {
+    width: 100%;
+}
+
+#maps1 h3 {
+    display: inline;
+}
+
+#maps1 a {
+    color: floralwhite;
+    text-shadow: none;
+}
+
+#maps a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+html {
+    scroll-behavior: smooth;
+}
+.menue {
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    cursor: pointer;
+    z-index: 10;
+    width: 100%;
+    background-color:lightcyan;
+    margin-top: 0px;
+    
+
+}
+
+
+
+.links {
+
+    color: fuchsia;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+    text-decoration: none;
+    color: white;
+
+}
+
+.links:hover {
+    background-color: aqua;
+    text-decoration: underline;
+    font-size: 25px;
+}
